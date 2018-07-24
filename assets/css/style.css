@@ -1,0 +1,39 @@
+body {
+    background: url("../images/gem-back.png");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 48px;
+    color: green;
+    padding: 20px;
+    background-color: orange;
+
+}
+
+#red {
+    
+}
+
+#yellow {
+
+}
+
+#blue {
+
+}
+
+#green {
+    
+}
+
+.crystal-click {
+    font-size: 24px;
+    color: red;
+    font-style: bold;
+}
+
+.content {
+    font-size: 22px;
+    color: blue;
+}
