@@ -78,6 +78,12 @@ $(document).ready(function () {
         gem2 = Math.floor(Math.random() * 11 + 1);
         gem3 = Math.floor(Math.random() * 11 + 1);
         gem4 = Math.floor(Math.random() * 11 + 1);
+        document.getElementById("scores").innerHTML =
+            '<p id="totalWins">' + "Total wins: " + wins + '</p>' +
+            '<p id="totalLosses">' + "Total Losses: " + losses + '</p>' +
+            '<p id="randomNumber">' + "Number to Match: " + computerNumber + '</p>' +
+            '<p id="currentScore">' + "Your Current Score: " + myScore + '</p>';
+        console.log(scores);
     }
 
     // If user wins
@@ -96,16 +102,16 @@ $(document).ready(function () {
         reset();
     }
 
-    
-    document.getElementById("scores").innerHTML = 
-    '<p id="totalWins">' + "Total wins: " + wins + '</p>' +
-    '<p id="totalLosses">' + "Total Losses: " + losses + '</p>' +
-    '<p id="randomNumber">' + "Number to Match: " + computerNumber + '</p>' +
-    '<p id="currentScore">' + "Your Current Score: " + myScore + '</p>';
+
+    document.getElementById("scores").innerHTML =
+        '<p id="totalWins">' + "Total wins: " + wins + '</p>' +
+        '<p id="totalLosses">' + "Total Losses: " + losses + '</p>' +
+        '<p id="randomNumber">' + "Number to Match: " + computerNumber + '</p>' +
+        '<p id="currentScore">' + "Your Current Score: " + myScore + '</p>';
     console.log(scores);
 
 
-    
+
 
 });
 
@@ -118,7 +124,7 @@ $(document).ready(function () {
     // '<p id="randomNumber">' + computerNumber + '</p>' +
     // '<p id="currentScore">' + myScore + '</p>';
 
-   
+
     // var targetDiv = document.getElementById("scores");
 
     // targetDiv.textContent = 
@@ -126,6 +132,6 @@ $(document).ready(function () {
     // '<p id="totalLosses">' + losses + '</p>' +
     // '<p id="randomNumber">' + computerNumber + '</p>' +
     // '<p id="currentScore">' + myScore + '</p>';
-    
+
 
     // render();
